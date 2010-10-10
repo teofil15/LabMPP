@@ -23,7 +23,7 @@ app.use(express.json());
 const PORT = 5000;
 const server = http.createServer(app);
 const io = new Server(server);
-
+//
 // MongoDB Connection
 const uri =
   'mongodb+srv://costingiurgiu:1z6H9pjw6hgADJ7i@db.pooigij.mongodb.net/?retryWrites=true&w=majority&appName=DB';
