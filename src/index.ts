@@ -26,7 +26,7 @@ const io = new Server(server);
 
 // MongoDB Connection
 const uri =
-  'mongodb+srv://vladfl1234567890:G16ocn5Hv3AA0Q4m@backenddb.e0b84uj.mongodb.net/?retryWrites=true&w=majority&appName=BackendDB';
+  'mongodb+srv://danimocanu:<password>@cluster0.yaw8p3w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose
   .connect(uri)
